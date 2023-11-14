@@ -33,7 +33,8 @@ export default function Home({}) {
         className="  customCursor"
         style={{ left: `${position.x}px`, top: `${position.y}px` }}
       ></div>
-      <div id="text" onMouseEnter={Animation()}>
+      <div id="text">
+        {/* onMouseEnter={Animation()} */}
         <p className="mx-auto bg-text  w-2/3">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do
           eiusmod tempor magna
