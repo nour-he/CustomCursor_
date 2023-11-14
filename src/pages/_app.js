@@ -1,4 +1,3 @@
-import CustomCursor from "@/components/CustomCursor";
 import "../assets/scss/global.css";
 import "../assets/scss/main.scss";
 
@@ -14,7 +13,6 @@ export default function App({ Component, pageProps }) {
       </Head>
       <main>
         <Component {...pageProps} />
-        <CustomCursor />
       </main>
     </>
   );
