@@ -1,0 +1,18 @@
+body {
+  background: black;
+  overflow-x: hidden;
+  cursor: none;
+}
+.customCursor {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #7879FF;
+  box-shadow:
+    0 0 20px 10px #4949FF,  /* inner white */
+    0 0 50px 20px #7879FF, /* middle magenta */
+    0 0 80px 40px #A3A3FF; /* outer cyan */
+  pointer-events: none;
+  z-index: 1000; /* Ensure the cursor is on top of other elements */
+}
